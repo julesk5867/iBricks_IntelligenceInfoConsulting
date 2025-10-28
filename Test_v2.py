@@ -36,7 +36,7 @@ if uploaded_file:
     if st.session_state["file_id"] is None:
         def upload_file(file_dir):
             # 사내 openai api key
-            api_key = "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"
+            api_key = "api-key"
 
             # PDF 파일 경로 입력
             file_dir = file_dir
@@ -408,4 +408,5 @@ with input_container:
             print("Updated Conversation:", st.session_state["conversation"])
 
         else:
+
             st.error("PDF 파일을 먼저 업로드해주세요.")
