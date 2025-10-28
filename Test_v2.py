@@ -235,7 +235,7 @@ with input_container:
                 query_verification_result = query_verification(st.session_state["user_query"])
 
                 def search_file(system_prompt, query, file_id):
-                    api_key = "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"
+                    api_key = "api-key"
 
                     # 어시스턴스 생성
                     assistant_headers = {
@@ -410,4 +410,5 @@ with input_container:
         else:
 
             st.error("PDF 파일을 먼저 업로드해주세요.")
+
 
