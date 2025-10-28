@@ -192,7 +192,7 @@ with input_container:
 
                 def query_verification(query):
                     ## api key
-                    api_key = "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"
+                    api_key = "api-key"
 
                     headers = {
                         "Content-Type": "application/json",
@@ -410,3 +410,4 @@ with input_container:
         else:
 
             st.error("PDF 파일을 먼저 업로드해주세요.")
+
